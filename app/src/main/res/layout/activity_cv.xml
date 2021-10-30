@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Cv.ActivityCV">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_16sdp"
+
+            android:orientation="vertical">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_cv_name"
+                style="@style/MyEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_cv_Nickname"
+                style="@style/MyEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/enter_your_nick_name"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true" />
+
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_cv_homeaddress"
+                style="@style/MyEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/enter_your_address_home"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_cv_email"
+                style="@style/MyEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/enter_your_email_address"
+                android:inputType="textEmailAddress"
+                android:selectAllOnFocus="true" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_cv_phone"
+                style="@style/MyEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/enter_your_address_phone_number"
+                android:inputType="number"
+                android:selectAllOnFocus="true" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+
+                android:background="@color/black" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_6sdp"
+                android:text="@string/city"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+
+                />
+
+            <Spinner
+                android:id="@+id/custom_cv_spenar_city"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginBottom="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_6sdp"
+                android:text="@string/nationality"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+
+                />
+
+            <Spinner
+                android:id="@+id/custom_cv_spenar_nationlity"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginBottom="@dimen/_20sdp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_6sdp"
+                android:text="@string/experience_years"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+
+                />
+
+            <Spinner
+                android:id="@+id/custom_cv_spenar_experience"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+
+                android:layout_marginBottom="@dimen/_20sdp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_6sdp"
+                android:text="@string/education_level"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+
+                />
+
+            <Spinner
+                android:id="@+id/custom_cv_spenar_educationLevel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+
+                android:layout_marginBottom="@dimen/_20sdp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_6sdp"
+                android:text=" Military Serves"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+
+                />
+
+            <Spinner
+                android:id="@+id/custom_cv_spenar_militaryServes"
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginBottom="@dimen/_20sdp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_6sdp"
+                android:text=" Expected salary"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+
+                />
+
+            <Spinner
+                android:id="@+id/custom_cv_spenar_salaryِِِArea"
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginBottom="@dimen/_20sdp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_6sdp"
+                android:text="@string/career_level"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+
+                />
+
+            <Spinner
+                android:id="@+id/custom_cv_spenar_CurrentJobState"
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginBottom="@dimen/_20sdp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_6sdp"
+                android:text="@string/job_type"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+
+                />
+
+            <Spinner
+                android:id="@+id/custom_cv_spenar_jobTybe"
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginBottom="@dimen/_20sdp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_6sdp"
+                android:text="@string/work_cities"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+
+                />
+
+            <Spinner
+                android:id="@+id/custom_cv_spenar_workCities"
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginBottom="@dimen/_20sdp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_3sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_6sdp"
+
+                android:text="@string/gender"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+
+                />
+
+            <RadioGroup
+                android:id="@+id/radiogro"
+                style="@style/MyEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20sdp"
+
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_cv_male"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/male"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11ssp" />
+
+                <RadioButton
+                    android:id="@+id/rb_cv_female"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/female"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11ssp" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_6sdp"
+
+                android:text="@string/select_date"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/datePickerButton"
+                style="?android:spinnerStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="openDatePicker"
+                android:padding="@dimen/_10sdp"
+                android:text="JAN 01 2020"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSend"
+                style="@style/ButtonStlye123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="submit"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ProgressBar
+        android:id="@+id/et_detail_progressCv"
+
+        style="@style/Widget.AppCompat.ActionBar.Solid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        />
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:contentScrim="@color/primary_dark"
+            app:expandedTitleMarginEnd="30dp"
+            app:expandedTitleMarginStart="15dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <ImageView
+                android:id="@+id/detailes_ivv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/primary"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/city"
+
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/detail_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:layout_collapseMode="none" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

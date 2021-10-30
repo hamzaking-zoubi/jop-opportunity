@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">فرصة عمل</string>
+    <string name="nav_header_title">فرصة عمل</string>
+
+    <string name="jobs">وظائف</string>
+    <string name="menu_home">الرئيسية</string>
+    <string name="menu_setting">الاعدادات</string>
+
+    <string name="programs_and_courses">برامج ودورات</string>
+    <string name="corporate_jobs">أعمال شركات</string>
+    <string name="applied">تطبيقي</string>
+    <string name="main">الرئيسية</string>
+    <string name="military_jobs">وظائف عسكرية</string>
+    <string name="setting">الاعدادات</string>
+    <string name="admission_results">نتائج القبول</string>
+    <string name="latest_news">اخر الاخبار</string>
+    <string name="favorite">المفضلة</string>
+    <string name="home">الرئيسئة</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="job_opportunity">فرصة عمل</string>
+    <string name="dark_mode">الوضع الليلي</string>
+    <string name="menu_favorite">المفضلة</string>
+    <string name="menu_LastNews">اخر الاخبار</string>
+    <string name="delete_favorite">مسح المفضلة</string>
+    <string name="yes">نعم</string>
+    <string name="job_opportunity1">تفاصيل فرصة العمل:</string>
+    <string name="how_to_apply">طريقة التقديم:من خلال الرابط التالي يمكنك ارسال السيرة الذاتية والتواصل مع ادارة التطبيق:</string>
+    <string name="Job_opportunity_application">تطبيق فرصة عمل</string>
+    <string name="tab1">أخبار الوظائف الحكومية المدنية العسكرية الشركات ونتائج القبول وأخبار أخرى متنوعة
+كل ذك تجدونه في فرصة عمل </string>
+    <string name="looking_for_job">هل تبحث عن عمل</string>
+    <string name="tab2">تطبيق فرصة عمل سيزودكم بكل جديد ابقو معنا فقد تكون انت صاحب العمل</string>
+    <string name="Fast_forward">تقديم سريع</string>
+    <string name="tab3">ماعليك الا ان ترسل السيرة الذاتية الخاصة بك وتراسل فريق العمل الخاص بنا ليصلك كل جديد</string>
+    <string name="Interact_with_us">تفاعل معنا</string>
+    <string name="tab4">مرحبا بكم لا تنسو الاطلاع على اخر الاخبار وتفعيل زر التنبيهات</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="email">البريد الألكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="register">تسجيل</string>
+    <string name="already_registered_login_here">مسجل بالفعل ؟ سجل الدخول هنا</string>
+    <string name="creat_new_account">انشاء حساب جديد</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="create_account"> من هنا؟انشئ حساب</string>
+    <string name="forgot_password">هل نسيت كلمة السر</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="name">الاسم</string>
+    <string name="enter_your_nick_name">enter your nick name</string>
+    <string name="enter_your_address_home">enter your address home</string>
+    <string name="enter_your_email_address">enter your email address</string>
+    <string name="enter_your_address_phone_number">enter your address phone number</string>
+    <string name="city">المدينة</string>
+    <string name="nationality">الجنسية</string>
+    <string name="experience_years">سنوات الخبرة</string>
+    <string name="education_level">Education Level</string>
+    <string name="career_level">Career Level</string>
+    <string name="job_type">نوع العمل</string>
+    <string name="work_cities">مكان العمل</string>
+    <string name="gender">الجنس</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثى</string>
+    <string name="select_date">اختر تاريخ ميلادك:</string>
+    <string name="send_request">ارسال طلب</string>
+    <string name="recommended">موصى به</string>
+    <string name="military">عسكري</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="wait_rquest">لقد ارسلت طلبا انتظر الرد</string>
+    <string name="my_requests_and_cv">طلباتي و السيرة الذاتية</string>
+    <string name="cv">السيرة الذاتية</string>
+    <string name="my_requests">طلباتي</string>
+    <string name="next">التالي</string>
+    <string name="companies">شركات</string>
+    <string name="courses">برامج ودورات</string>
+    <string name="how_we_are">من نحن ؟</string>
+    <string name="connect_with_us">تواصل معنا</string>
+    <string name="the_job_opportunity_application_is_an_application_that_secures_job_seekers_a_suitable_job_according_to_their_experiences_and_certificates_and_in_proportion_to_their_time_in_the_best_possible_way_and_respond_to_your_inquiries_through_our_platforms_on_facebook_whatsapp_and_telegram">تطبيق فرصة عمل هو تطبيق يؤمن للباحثين عن فرصة عمل عمل مناسب حسب خبراتهم وشهاداتهم وبما يتناسب مع اوقاتهم  وذلك بافضل الطرق الممكنة والرد على استفساراتكم من خلال منصاتنا على فيسبوك واتس اب و تيليغرام</string>
+    <string name="fill_fields">املأ الحقول</string>
+    <string name="enter_namecv">ادخل اسم الاول</string>
+    <string name="enter_lastname">ادخل اسمك الاخير</string>
+    <string name="fenter_emailcv">ادخل يميلك الشخصي</string>
+
+
+    <string name="now">الآن</string>
+    <string name="from">منذ</string>
+    <string name="since">منذ</string>
+
+    <!--minutes-->
+    <string name="one_minute">دقيقة</string>
+    <string name="tow_minutes">دقيقتين</string>
+    <string name="for_ten_minutes">دقائق</string>
+    <string name="minutes">دقيقة</string>
+
+    <!--hours-->
+    <string name="one_hour">ساعة</string>
+    <string name="tow_hours">ساعتين</string>
+    <string name="for_ten_hours">ساعات</string>
+    <string name="hours">ساعة</string>
+
+    <!--days-->
+    <string name="one_day">يوم</string>
+    <string name="tow_days">يومين</string>
+    <string name="for_ten_days">أيام</string>
+
+    <!--weeks-->
+    <string name="one_week">أسبوع</string>
+    <string name="tow_weeks">أسبوعين</string>
+    <string name="for_ten_weeks">أسابيع</string>
+    <string name="delete">حذف</string>
+    <string name="chat">المحادثة</string>
+    <string name="profile_company">ملف الشركة</string>
+    <string name="name_company">اسم الشركة</string>
+    <string name="phone_company">رقم الشركة</string>
+    <string name="company_location">مكان الشركة</string>
+    <string name="about_company">حول الشركة</string>
+    <string name="email_company">ايميل الشركة</string>
+    <string name="the_company_s_official_website">موقع الشركة الرسمي</string>
+    <string name="following">متابعة</string>
+    <string name="you_are_following_now">انت متابع للصفحة</string>
+    <string name="show_all_advertisement">اظهار جميع اعلانات الشركة</string>
+    <string name="through_this_page_you_can_communicate_with_the_company_you_applied_for_see_the_latest_developments_and_send_some_registration_requirements"> من خلال هذه الصفحة يمكنك التواصل مع الشركة التي تقدمت لها والاطلاع على آخر التطورات وبعض متطلبات التسجيل. يمكنك أيضًا إلغاء التطبيق. شركة الزعبي تتمنى لكم أن تجدوا فرصة عمل مناسبة.</string>
+    <string name="chat_">المحادثة</string>
+    <string name="orders_page">صفحة الطلب</string>
+
+    <string name="notif">جائك طلب توظيف من</string>
+    <string name="undo_the_request">التراجع عن الطلب</string>
+    <string name="go_to_the_advertisement_page">الذهاب الى صفحة الاعلان</string>
+    <string name="cancelling_order">الغاء الطلب</string>
+    <string name="report">ابلاغ</string>
+
+</resources>

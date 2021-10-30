@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "248170812187",
+    "firebase_url": "https://hamza-king-d0a86-default-rtdb.firebaseio.com",
+    "project_id": "hamza-king-d0a86",
+    "storage_bucket": "hamza-king-d0a86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248170812187:android:6eb6fb42d2fab7d565f9be",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248170812187-c7tl0ts6f0beh8itvmrb82r1d1j7ra68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "eff9cf16f21a324a6f99330aa52e2ad0fac4dcbd"
+          }
+        },
+        {
+          "client_id": "248170812187-a35gpir6pbgde58u4slurhmikk8v9c3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2l9cL4DjGRHBB48ugBFEplK9TnjwYgJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248170812187-a35gpir6pbgde58u4slurhmikk8v9c3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

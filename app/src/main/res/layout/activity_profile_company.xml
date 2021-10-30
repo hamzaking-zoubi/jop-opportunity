@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".JobsClass.ProfileCompanyActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/stayletextview"
+
+                android:fontFamily="sans-serif-black"
+
+                android:text="@string/profile_company"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.536"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/prof_companyLogo"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintBottom_toTopOf="@+id/prof_companyname_tv"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+            <TextView
+                android:id="@+id/prof_companyname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:text="@string/name_company"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_companyLogo" />
+
+
+            <TextView
+                android:id="@+id/prof_companyname_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/stayletextview"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:text="name company"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_companyname" />
+
+            <TextView
+                android:id="@+id/prof_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:text="@string/phone_company"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_companyname_tv" />
+
+
+            <TextView
+                android:id="@+id/prof_companyphon_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/stayletextview"
+                android:paddingStart="@dimen/_6sdp"
+
+                android:paddingLeft="@dimen/_6sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:text="phone"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_phone" />
+
+            <TextView
+                android:id="@+id/prof_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:text="@string/company_location"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_companyphon_tv" />
+
+            <TextView
+                android:id="@+id/prof_companyplace_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/stayletextview"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingLeft="@dimen/_6sdp"
+
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:text="place"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_place" />
+
+            <TextView
+                android:id="@+id/prof_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:text="@string/about_company"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_companyplace_tv" />
+
+
+            <TextView
+                android:id="@+id/prof_companyJop_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/stayletextview"
+
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingLeft="@dimen/_6sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:text="jop"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_about" />
+
+            <TextView
+                android:id="@+id/prof_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:text="@string/email_company"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_companyJop_tv" />
+
+            <TextView
+                android:id="@+id/prof_companyemail_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/stayletextview"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingLeft="@dimen/_6sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+
+                android:text="email"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_email" />
+
+            <TextView
+                android:id="@+id/prof_wi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:text="@string/the_company_s_official_website"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_companyemail_tv" />
+
+            <TextView
+                android:id="@+id/prof_companywib_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/stayletextview"
+                android:paddingStart="@dimen/_6sdp"
+                android:paddingLeft="@dimen/_6sdp"
+                android:paddingEnd="@dimen/_6sdp"
+
+                android:paddingRight="@dimen/_6sdp"
+                android:text="wib"
+                android:textSize="@dimen/_14sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_wi"
+                app:layout_constraintVertical_bias="0.51" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/folloing_btn_send"
+                style="@style/ButtonStlye123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:text="@string/following"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.51"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/prof_companywib_tv" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/folloing_btn_send">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileCompany_instegram"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_margin="@dimen/_3sdp"
+
+                    android:src="@drawable/instagram"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileCompany_twittier"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:src="@drawable/twitter"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileCompany_facebook"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:src="@drawable/facebook"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

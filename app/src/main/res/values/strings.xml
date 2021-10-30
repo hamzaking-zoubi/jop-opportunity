@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">job opportunity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title">job opportunity</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_LastNews">LastNews</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="job_opportunity">job opportunity</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="latest_news">Latest News</string>
+    <string name="admission_results">Admission results</string>
+    <string name="setting">Setting</string>
+    <string name="military_jobs">Military Jobs</string>
+    <string name="main">Main</string>
+    <string name="jobs">Jobs</string>
+    <string name="programs_and_courses">Programs and Courses</string>
+    <string name="corporate_jobs">Corporate Jobs</string>
+    <string name="applied">Applied</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="delete_favorite">Delete favorite</string>
+    <string name="yes">yes</string>
+    <string name="job_opportunity1">Job opportunity Details:</string>
+    <string name="how_to_apply">How to apply:Through the following link, you can send a CV and contact the application administration:</string>
+    <string name="Job_opportunity_application">Job opportunity application</string>
+    <string name="tab1">News of government, civilian and military jobs, companies, urine results, and a variety of other news You can find all of this in a job opportunity</string>
+    <string name="looking_for_job">Are you looking for a job</string>
+    <string name="tab2">The application of a job opportunity will provide you with all new things. Stay with us, as you may be the business owner what are you waiting for </string>
+    <string name="Fast_forward">Fast forward</string>
+    <string name="tab3">You only have to send your CV and write to our team to receive all new developments</string>
+    <string name="Interact_with_us">Interact with us</string>
+    <string name="tab4">Welcome, do not forget to check the latest news and activate the alerts button</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="already_registered_login_here">Already Signed in?Login Here</string>
+    <string name="creat_new_account">Create New Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="create_account">New Here? Create Account</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_out">Log out</string>
+    <string name="name">Enter your first name</string>
+    <string name="enter_your_nick_name">enter your last name</string>
+    <string name="enter_your_address_home">enter your  home address</string>
+    <string name="enter_your_email_address">enter your email address</string>
+    <string name="enter_your_address_phone_number">enter your  phone number </string>
+    <string name="city">City</string>
+    <string name="nationality">Nationality</string>
+    <string name="experience_years">Experience Years</string>
+    <string name="education_level">Education Level</string>
+    <string name="career_level">Current Job State</string>
+    <string name="job_type">Job type</string>
+    <string name="work_cities">Work cities</string>
+    <string name="gender">gender</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="select_date">Select Date:</string>
+    <string name="send_request">send request</string>
+    <string name="recommended">recommended</string>
+    <string name="military">military</string>
+    <string name="logout">logout</string>
+    <string name="wait_rquest">you sent a request, waiting for a response</string>
+    <string name="my_requests_and_cv">My requests and Cv</string>
+    <string name="cv">Cv</string>
+    <string name="my_requests">My requests</string>
+    <string name="next">Next</string>
+    <string name="companies">Companies</string>
+    <string name="courses">Courses</string>
+    <string name="connect_with_us">Connect with us</string>
+    <string name="the_job_opportunity_application_is_an_application_that_secures_job_seekers_a_suitable_job_according_to_their_experiences_and_certificates_and_in_proportion_to_their_time_in_the_best_possible_way_and_respond_to_your_inquiries_through_our_platforms_on_facebook_whatsapp_and_telegram">The Job Opportunity application is an application that secures job seekers a suitable job according to their experiences and certificates and in proportion to their time, in the best possible way and respond to your inquiries through our platforms on Facebook, WhatsApp and Telegram</string>
+    <string name="how_we_are">how we are ?</string>
+    <string name="fill_fields">Fill in the fields</string>
+    <string name="enter_namecv">enter your name to create cv </string>
+    <string name="enter_lastname">enter your last name to create cv </string>
+    <string name="fenter_emailcv">enter your last Email to create cv </string>
+
+    <string name="now">now</string>
+    <string name="from">from</string>
+    <string name="since">since</string>
+
+    <!--minutes-->
+    <string name="one_minute">one minute</string>
+    <string name="tow_minutes">two minutes</string>
+    <string name="for_ten_minutes">minutes</string>
+    <string name="minutes">minutes</string>
+
+    <!--hours-->
+    <string name="one_hour">one hour</string>
+    <string name="tow_hours">two hours</string>
+    <string name="for_ten_hours">hours</string>
+    <string name="hours">hours</string>
+
+    <!--days-->
+    <string name="one_day">one day</string>
+    <string name="tow_days">two days</string>
+    <string name="for_ten_days">days</string>
+
+    <!--weeks-->
+    <string name="one_week">one week</string>
+    <string name="tow_weeks">two weeks</string>
+    <string name="for_ten_weeks">weeks</string>
+    <string name="delete">Delete</string>
+    <string name="chat">Chat</string>
+    <string name="profile_company">Profile Company</string>
+    <string name="name_company">name company</string>
+    <string name="phone_company">Phone Company</string>
+    <string name="company_location">company location</string>
+    <string name="about_company">about Company</string>
+    <string name="email_company">email Company</string>
+    <string name="the_company_s_official_website">The companys official website</string>
+    <string name="following">Following</string>
+    <string name="you_are_following_now">you are following now</string>
+    <string name="show_all_advertisement">Show all Advertisement</string>
+    <string name="through_this_page_you_can_communicate_with_the_company_you_applied_for_see_the_latest_developments_and_send_some_registration_requirements">Through this page, you can communicate with the company you applied for and see the latest developments and some registration requirements. You can also cancel the application. Al-Zoubi Company wishes you to find a suitable job opportunity.</string>
+    <string name="orders_page">Orders page</string>
+    <string name="undo_the_request">Undo the request</string>
+    <string name="chat_">Chat</string>
+    <string name="notif">\"You have received a job application from \"</string>
+    <string name="go_to_the_advertisement_page">Go to the advertisement page</string>
+    <string name="cancelling_order">Cancelling order</string>
+    <string name="report">report</string>
+
+
+</resources>

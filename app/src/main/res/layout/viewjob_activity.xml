@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ViewJobActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/viewJob_btn_comp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#fff"
+                    android:drawableRight="@drawable/ic_company"
+                    android:drawableTint="#4c84ff"
+                    android:textColor="#4c84ff"
+
+
+                    android:text="@string/main" />
+
+                <Button
+                    android:id="@+id/viewJob_btn_Chat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/viewactivity_comment_btn"
+                    android:drawablePadding="@dimen/_20sdp"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:backgroundTint="#fff"
+                    android:drawableTint="#4c84ff"
+                    android:textColor="#4c84ff"
+                    android:layout_weight="1"
+                    android:text="@string/chat" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/viewJob_tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="android.widget public class "
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/viewJob_tv_fullDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:text="A Firebase reference represents a particular location in your Database and can be used for reading or writing data to that Database location.
+This class is the starting point for all Database operations. After you've
+initialized it with a URL, you can use it to read data, write data, and to create
+new DatabaseReferences."
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/viewJob_tv_timeAccept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingLeft="@dimen/_12sdp"
+                android:text="in gd dero 22/5/2202 "
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="italic" />
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="4dp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_6sdp"
+                android:background="@color/black" />
+
+            <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+                android:id="@+id/viewjob_Vv"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/_8sdp"
+                app:resize_mode="fill"
+                app:use_controller="true" />
+
+            <TextView
+                android:id="@+id/viewJob_tv_videoname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:text="كلية الهندسة المعلوماتية "
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="4dp"
+                android:layout_marginBottom="@dimen/_6sdp"
+                android:background="@color/black" />
+
+
+            <TextView
+                android:id="@+id/viewJob_tv_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:text="hamza.zy2017@gmail.com"
+                android:textSize="@dimen/_16sdp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/viewJob_btn_sendCv"
+                style="@style/ButtonStlye123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/send_request" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_270sdp"
+        android:fitsSystemWindows="true"
+
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+
+
+            app:expandedTitleMarginEnd="30dp"
+            app:expandedTitleMarginStart="15dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/viewJob_tv_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:scaleType="fitXY"
+
+                app:layout_collapseMode="parallax" />
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

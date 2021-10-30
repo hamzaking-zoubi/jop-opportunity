@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.Fragment.FragmentHome"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.example.myapplication.Fragment.FragmentFavorite"
+        android:label="@string/menu_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.myapplication.Fragment.Fragment_setting"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_setting"
+
+        />
+
+
+    <fragment
+        android:id="@+id/nav_military"
+        android:name="com.example.myapplication.Fragment.Fragment_Militaryjobs"
+        android:label="@string/military"
+        tools:layout="@layout/fragment_militaryjobs"
+
+        />
+    <fragment
+        android:id="@+id/nav_recommended"
+        android:name="com.example.myapplication.Fragment.recommended"
+        android:label="@string/recommended"
+        tools:layout="@layout/fragment_recommended" />
+
+    <fragment
+        android:id="@+id/nav_companies"
+        android:name="com.example.myapplication.Fragment.Fragment_companies"
+        android:label="@string/companies"
+        tools:layout="@layout/fragment_companies" />
+    <fragment
+        android:id="@+id/nav_courses"
+        android:name="com.example.myapplication.Fragment.Fragment_courses"
+        android:label="@string/courses"
+        tools:layout="@layout/fragment_courses" />
+<!--    <fragment-->
+<!--        android:id="@+id/nav_admission"-->
+<!--        android:name="com.example.myapplication.Fragment.Fragment_admission_results"-->
+<!--        android:label="@string/admission_results"-->
+<!--        tools:layout="@layout/fragment_admission_results" />-->
+    <fragment
+        android:id="@+id/nav_myRequest"
+        android:name="com.example.myapplication.Fragment.Fragment_requests"
+        android:label="@string/my_requests"
+        tools:layout="@layout/fragment_requests" />
+ <fragment
+        android:id="@+id/nav_Connect_wit"
+        android:name="com.example.myapplication.Fragment.Fragment_connect_whith_us"
+        android:label="@string/connect_with_us"
+        tools:layout="@layout/fragment_connect_whith_us" />
+
+
+</navigation>

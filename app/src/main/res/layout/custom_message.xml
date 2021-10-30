@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="@dimen/_100sdp"
+    app:cardCornerRadius="@dimen/_30sdp"
+    app:cardUseCompatPadding="true"
+
+    >
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="@dimen/_150sdp"
+       android:layout_height="wrap_content"
+       android:layout_margin="16dp"
+       android:orientation="vertical"
+       >
+
+       <TextView
+           android:id="@+id/custom_tv"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="0"
+           android:gravity="end"
+           android:textSize="10sp"
+           android:textColor="@color/purple_700"
+           android:text="NAME"
+           android:textAppearance="?android:attr/textAppearance"
+           />
+       <ImageView
+           android:id="@+id/custom_iv"
+           android:layout_width="250dp"
+           android:layout_height="200dp"
+           android:layout_weight="1"
+           android:layout_gravity="center"
+
+           android:adjustViewBounds="true"/>
+
+       <TextView
+           android:id="@+id/custom_text"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:paddingLeft="0dp"
+           android:paddingStart="0dp"
+           android:textSize="12sp"
+           android:text="TextView" />
+
+   </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

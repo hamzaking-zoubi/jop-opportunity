@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Intro.IntroActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_32sdp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/tab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47000003" />
+
+    <Button
+        android:id="@+id/intro_btn_nxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_32sdp"
+
+        android:backgroundTint="#fff"
+        android:drawableRight="@drawable/ic_orward"
+        android:drawableTint="#4c84ff"
+        android:text="@string/next"
+        android:textColor="#4c84ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintLeft_toRightOf="@+id/tab" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_32sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/intro_btn_nxt"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintLeft_toLeftOf="@+id/intro_btn_nxt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabBackground="@drawable/indicator_selector"
+        app:tabIndicatorColor="@color/white">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/intro_btn_getstart"
+        style="@style/ButtonStlye123"
+        android:layout_width="@dimen/_167sdp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:text="Get Start"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pager"
+        app:layout_constraintVertical_bias="0.83" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

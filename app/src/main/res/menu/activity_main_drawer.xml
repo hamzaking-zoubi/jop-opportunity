@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/main">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_home"
+                    android:title="@string/home" />
+                <item
+                    android:id="@+id/nav_favorite"
+                    android:icon="@drawable/ic_favorite"
+                    android:title="@string/favorite" />
+
+                <item
+                    android:id="@+id/nav_recommended"
+                    android:icon="@drawable/ic_check"
+                    android:title="@string/recommended" />
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/jobs">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_military"
+                    android:icon="@drawable/ic_military"
+                    android:title="@string/military_jobs" />
+                <item
+                    android:id="@+id/nav_companies"
+                    android:icon="@drawable/ic_corporate"
+                    android:title="@string/corporate_jobs" />
+                <item
+                    android:id="@+id/nav_courses"
+                    android:icon="@drawable/ic_school"
+                    android:title="@string/programs_and_courses" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/my_requests_and_cv">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_myRequest"
+                    android:icon="@drawable/ic_request"
+                    android:title="@string/my_requests" />
+                <item
+                    android:id="@+id/nav_cv"
+                    android:icon="@drawable/ic_headhunting"
+                    android:title="@string/cv" />
+<!--                <item-->
+<!--                    android:id="@+id/nav_admission"-->
+<!--                    android:icon="@drawable/ic_connect"-->
+<!--                    android:title="@string/admission_results" />-->
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="@string/applied">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/ic_settings"
+                    android:title="@string/setting" />
+
+                <item
+                    android:id="@+id/nav_Connect_wit"
+                    android:icon="@drawable/ic_contact1"
+                    android:title="@string/connect_with_us" />
+                <item
+                    android:id="@+id/nav_singout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="@string/log_out" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
